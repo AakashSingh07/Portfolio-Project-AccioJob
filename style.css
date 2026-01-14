@@ -12,7 +12,6 @@ body {
 
 
 
-/* HERO */
 
 .hero {
   min-height: 100vh;
@@ -81,7 +80,6 @@ body {
   object-fit: cover;
 }
 
-/* ABOUT */
 
 .about-section {
   padding: 80px 155px;
@@ -128,7 +126,10 @@ body {
   color: #6c70ff;
 }
 
-/* SKILLS */
+
+
+
+
 
 .skills {
   padding: 120px 155px;
@@ -197,7 +198,8 @@ h3 i {
   border: 1px solid #222;
 }
 
-/* RESPONSIVE */
+
+
 
 @media (max-width: 900px) {
   .hero-container {
@@ -240,7 +242,11 @@ h3 i {
   }
 }
 
-/* EXPERIENCE SECTION */
+
+
+
+
+
 .experience-section {
   padding: 120px 160px;
   background: linear-gradient(135deg, #000, #111, #000);
@@ -253,7 +259,6 @@ h3 i {
   margin-bottom: 80px;
 }
 
-/* TIMELINE */
 .timeline {
   position: relative;
   max-width: 900px;
@@ -261,7 +266,6 @@ h3 i {
       padding-right: 40px;
 }
 
-/* vertical line */
 .timeline::before {
   content: "";
   position: absolute;
@@ -272,13 +276,11 @@ h3 i {
   background: #2a2a2a;
 }
 
-/* ITEM */
 .timeline-item {
   position: relative;
   margin-bottom: 80px;
 }
 
-/* blue dot */
 .timeline-dot {
   position: absolute;
   left: -6px;
@@ -289,7 +291,6 @@ h3 i {
   border-radius: 50%;
 }
 
-/* CONTENT */
 .timeline-content {
   padding-left: 40px;
 }
@@ -312,7 +313,6 @@ h3 i {
   margin-bottom: 15px;
 }
 
-/* BULLETS */
 .timeline-content ul {
   list-style: none;
   padding-left: 0;
@@ -334,7 +334,6 @@ h3 i {
   font-weight: bold;
 }
 
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .experience-section {
     padding: 80px 40px;
@@ -353,7 +352,10 @@ h3 i {
   }
 }
 
-/* ================= FEATURED PROJECTS (Same to Same) ================= */
+
+
+
+
 
 .projects {
   padding: 120px 155px;
@@ -367,7 +369,6 @@ h3 i {
   color: #ffffff;
 }
 
-/* Grid */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -375,7 +376,6 @@ h3 i {
   align-items: stretch;
 }
 
-/* Card */
 .project-card {
   background: rgba(20, 20, 20, 0.65);
   border-radius: 26px;
@@ -389,7 +389,6 @@ h3 i {
   transition: all 0.35s ease;
 }
 
-/* Hover effect same like image */
 .project-card:hover {
   transform: translateY(-10px);
   border-color: rgba(108, 112, 255, 0.65);
@@ -397,7 +396,6 @@ h3 i {
     0 30px 70px rgba(0, 0, 0, 0.65);
 }
 
-/* Project Image container */
 .project-img {
   width: 100%;
   height: 240px;
@@ -406,7 +404,6 @@ h3 i {
   position: relative;
 }
 
-/* Image */
 .project-img img {
   width: 100%;
   height: 100%;
@@ -416,17 +413,15 @@ h3 i {
   transition: transform 0.35s ease;
 }
 
-/* Zoom image on hover */
 .project-card:hover .project-img img {
   transform: scale(1.05);
 }
 
-/* Content */
 .project-content {
   padding: 28px 30px 30px;
 }
 
-/* Title */
+
 .project-name {
   font-size: 28px;
   font-weight: 750;
@@ -434,7 +429,6 @@ h3 i {
   margin-bottom: 14px;
 }
 
-/* Description */
 .project-desc {
   font-size: 16px;
   color: #9CA3AF;
@@ -442,7 +436,6 @@ h3 i {
   margin-bottom: 22px;
 }
 
-/* Tags */
 .project-tags {
   display: flex;
   flex-wrap: wrap;
@@ -450,7 +443,6 @@ h3 i {
   margin-bottom: 28px;
 }
 
-/* Pills same like screenshot */
 .project-tags span {
   padding: 9px 16px;
   border-radius: 999px;
@@ -463,14 +455,12 @@ h3 i {
   font-weight: 500;
 }
 
-/* Links bottom */
 .project-links {
   display: flex;
   gap: 22px;
   align-items: center;
 }
 
-/* Links style */
 .project-link {
   text-decoration: none;
   color: #ffffff;
@@ -490,13 +480,17 @@ h3 i {
   opacity: 0.9;
 }
 
-/* Hover links */
+
 .project-link:hover {
   color: #6c70ff;
   transform: translateY(-2px);
 }
 
-/* ================= RESPONSIVE ================= */
+
+
+
+
+
 
 @media (max-width: 1100px) {
   .projects {
@@ -530,7 +524,9 @@ h3 i {
   }
 }
 
-/* ================= CONTACT SECTION ================= */
+
+
+
 
 .contact {
      padding: 75px 20px;
@@ -664,7 +660,6 @@ margin-bottom: 151px;
   margin-bottom: 40px;
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   .contact-title {
     font-size: 48px;
