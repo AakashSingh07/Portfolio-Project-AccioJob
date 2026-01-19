@@ -67,9 +67,22 @@ body {
   color: #fff;
 }
 
+.primary:hover {
+  transform: translateY(-4px);
+  border-color: #6c70ff;
+  box-shadow: 0 25px 55px rgba(0, 0, 0, 0.55);
+}
+
 .outline {
   border: 2px solid #2a2a2a;
   color: #fff;
+}
+
+.outline:hover {
+  transform: translateY(-4px);
+  color: #6c70ff;
+  border-color: #6c70ff;
+  box-shadow: 0 25px 55px rgba(0, 0, 0, 0.55);
 }
 
 .hero-right img {
@@ -119,12 +132,22 @@ body {
   padding: 50px;
   border-radius: 12px;
   text-align: center;
+
+  border: 1px solid #1f1f1f;
+  transition: all 0.3s ease;
+}
+
+.stat-box:hover {
+  transform: translateY(-4px);
+  border-color: #6c70ff;
+  box-shadow: 0 25px 55px rgba(0, 0, 0, 0.55);
 }
 
 .stat-box h3 {
   font-size: 50px;
   color: #6c70ff;
 }
+
 
 
 
@@ -157,7 +180,6 @@ body {
 }
 
 .skills-card:hover {
-  transform: translateY(-6px);
   border-color: #6c70ff;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
 }
@@ -180,6 +202,12 @@ h3 i {
   gap: 12px;
 }
 
+.skills-tags span:hover {
+  background-color: #6c70ff;
+  color: white;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7);
+}
+
 .skills-line {
   width: 95%;
   max-width: 900px;
@@ -194,7 +222,7 @@ h3 i {
   background: #1a1a1a;
   color: #9ca3af;
   border-radius: 999px;
-  font-size: 14px;
+  font-size: 16px;
   border: 1px solid #222;
 }
 
@@ -303,7 +331,7 @@ h3 i {
 }
 
 .timeline-content h3 {
-  font-size: 26px;
+  font-size: 28px;
   margin: 10px 0 5px;
 }
 
@@ -480,17 +508,10 @@ h3 i {
   opacity: 0.9;
 }
 
-
 .project-link:hover {
   color: #6c70ff;
   transform: translateY(-2px);
 }
-
-
-
-
-
-
 
 @media (max-width: 1100px) {
   .projects {
@@ -562,44 +583,38 @@ h3 i {
 }
 
 .contact-pill {
-   width: 522px;
-    height: 69px;
+  width: 522px;
+  height: 69px;
   background: #0f0f0f;
   border: 3px solid #1f1f1f;
   border-radius: 999px;
+
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 11px;
+
   transition: 0.3s ease;
   box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
-  font-size: 500px;
+
   padding-left: 20px;
   padding-right: 20px;
 }
 
 #pill{
-     width:  300px;
-    height: 69px;
-  background: #0f0f0f;
-  border: 3px solid #1f1f1f;
-  border-radius: 999px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 11px;
-  transition: 0.3s ease;
-  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
-  font-size: 500px;
-  padding-left: 20px;
-  padding-right: 20px;
-} 
+  width: 300px;
+}
 
 .contact-pill:hover {
-  transform: translateY(-4px);
   border-color: #6c70ff;
+  color: #6c70ff;
   box-shadow: 0 25px 55px rgba(0, 0, 0, 0.55);
 }
+
+.contact-pill:hover .pill-text {
+  color: #6c70ff;
+}
+
 
 .pill-icon {
   color: #6c70ff;
